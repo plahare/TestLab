@@ -1,4 +1,7 @@
-a = 5
-while a < 10:
-	print a 
+a = 0
+#print numbers divisible by three
+while a < 100:
+	if (a%3 == 0):
+		print(a)
+
 	a += 1
